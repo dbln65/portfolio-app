@@ -1,0 +1,27 @@
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: david-k8s
+  region: eu-central-1
+  version: "1.30"
+
+iam:
+  withOIDC: true
+
+vpc:
+  nat:
+    gateway: Single
+
+managedNodeGroups:
+  - name: nodegroup
+    instanceType: t3.small # Free-Tier-kompatibel
+    desiredCapacity: 2
+    minSize: 1
+    maxSize: 3
+    volumeSize: 20
+    privateNetworking: true
+    labels:
+      env: dev
+    ssh:
+      allow: false

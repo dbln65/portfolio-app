@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Globales Verhalten */
+html,
+body {
+  min-height: 100%;
+  overflow-x: hidden; /* verhindert horizontales Scrollen */
+  overflow-y: auto; /* erlaubt vertikales Scrollen */
+  scroll-behavior: smooth;
+  background-color: #f9fafb; /* leichtes Tailwind-Gray für angenehmen Hintergrund */
+}
+
+/* Optional – sorgt für konsistentes Rendering */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Kleine Verbesserung für mobile Buttons & Inputs */
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+/* Entfernt unnötige Margin auf Mobilgeräten */
+body {
+  margin: 0;
+  padding: 0;
+}
