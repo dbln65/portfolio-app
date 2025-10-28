@@ -1,7 +1,8 @@
 # 🌐 Portfolio App — AWS EKS Fullstack Web Application
 
 This project is a **modern fullstack web application** built with **React**, **Node.js (Express)**, and **AWS Cloud Services** such as **Cognito**, **EKS**, **S3**, and **CloudFront**.  
-<img width="1918" height="1052" alt="website" src="https://github.com/user-attachments/assets/cecccd04-4a25-4169-83d5-f0e7eb3673eb" />
+<img width="1918" height="1052" alt="website" src="https://github.com/user-attachments/assets/c302238f-4d2f-44da-8567-40817d5989d1" />
+
 
 ---
 
